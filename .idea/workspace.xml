@@ -3,8 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="b577f879-4888-4598-9678-5eb1b4641903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/django_mysite/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_mysite/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookmark/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/bookmark/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +102,8 @@
       <workItem from="1614013022020" duration="95000" />
       <workItem from="1614065325758" duration="9000" />
       <workItem from="1614087793208" duration="2799000" />
-      <workItem from="1614164093055" duration="3592000" />
+      <workItem from="1614164093055" duration="4419000" />
+      <workItem from="1614251588332" duration="4995000" />
     </task>
     <task id="LOCAL-00001" summary="Add comment">
       <created>1613027329211</created>
@@ -113,7 +119,21 @@
       <option name="project" value="LOCAL" />
       <updated>1614091768141</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add authentication templates">
+      <created>1614167862995</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167862995</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Add authentication templates">
+      <created>1614167940606</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1614167940606</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -134,6 +154,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add comment" />
     <MESSAGE value="Add authentication URL, View" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add authentication URL, View" />
+    <MESSAGE value="Add authentication templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add authentication templates" />
   </component>
 </project>

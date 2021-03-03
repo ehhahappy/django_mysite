@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b577f879-4888-4598-9678-5eb1b4641903" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/fields.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/fields.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/photo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/photo/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +105,8 @@
       <workItem from="1614263511259" duration="680000" />
       <workItem from="1614406988923" duration="6912000" />
       <workItem from="1614580126813" duration="6947000" />
-      <workItem from="1614692540233" duration="4124000" />
+      <workItem from="1614692540233" duration="6351000" />
+      <workItem from="1614755385153" duration="435000" />
     </task>
     <task id="LOCAL-00001" summary="Add comment">
       <created>1613027329211</created>
@@ -152,7 +157,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614588520004</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add content editing function photo templates">
+      <created>1614696933787</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1614696933787</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +189,7 @@
     <MESSAGE value="Add content editing function model, URL, view" />
     <MESSAGE value="Add content editing function template and Fix typo" />
     <MESSAGE value="Add content editing function photo model, URL, views" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add content editing function photo model, URL, views" />
+    <MESSAGE value="Add content editing function photo templates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add content editing function photo templates" />
   </component>
 </project>

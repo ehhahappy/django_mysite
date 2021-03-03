@@ -67,14 +67,14 @@ class AlbumDelV(OwnerOnlyMixin, DeleteView):
 
 
 # --- (InlineFormSet) Create/Update for Album)
-class AlbumPhotoCb(LoginRequiredMixin, CreateView):
+class AlbumPhotoCV(LoginRequiredMixin, CreateView):
     model = Album
     fields = ('name', 'description')
     success_url = reverse_lazy('photo:index')
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
-        if self.request.POST():
+        if self.request.POST:
             context['formset'] = PhotoInlineFormSet(self.request.POST, self.request.FILES)
         else:
             context['formset'] = PhotoInlineFormSet()
